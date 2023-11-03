@@ -31,10 +31,20 @@ html{
 header .my-row{
     justify-content: flex-end;
 }
+
+/*
+    MAIN
+*/
+main{
+    background-color: black;
+    height:calc(100vh - 80px);
+}
 /*
     FOOTER
 */
-
+footer .my-row{
+    justify-content: space-between;
+}
 /*
     DEBUG
 */
@@ -43,4 +53,19 @@ header .my-row{
     min-height: 30px;
     background-color: black;
     color:white;
+}
+
+.debug .bottom-bar{
+    width: 100%;
+    min-height: 50px;
+    background-color: #222222;
+    color:white;
+}
+
+.debug main .container .my-row>*{
+    width:170px;
+    height:100px;
+    background-color: lightcoral;
+    margin:20px 5px;
+    overflow: visible;
 }
