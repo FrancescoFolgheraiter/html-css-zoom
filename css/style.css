@@ -58,17 +58,18 @@ footer .my-row .my-col-1-3{
     flex-wrap: wrap;
   
 }
-footer .my-row .my-col-1-3 > *{
-    font-size: 2em;
-    
-}
+
 .icons{
     display:flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
-.icons>*:first-child{
+
+.icons>*:first-child {
     width:100%;
-    justify-self: center;
+    text-align: center;
+    font-size: 2.5em;
 }
 
 
@@ -94,7 +95,7 @@ DEBUG
 }
 .debug .bottom-bar{
     width: 100%;
-    min-height: 50px;
+    min-height: 60px;
     background-color: #222222;
     color:white;
     position:fixed;
